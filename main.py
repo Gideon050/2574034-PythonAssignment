@@ -1,3 +1,5 @@
+import re
+
 # Define a function to create three-letter abbreviations for words in a line
 def create_abbreviations(line):
     words = line.split()  # Split the line into words
