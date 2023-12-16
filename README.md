@@ -9,3 +9,5 @@ Additionally, it calculates a score for each abbreviation based on specific rule
 
 Finally, it writes both the original lines from the input file and their corresponding abbreviations to the output file.
 The code successfully generates three-letter abbreviations for input text, handles duplicate abbreviations, and calculates scores based on specified rules for letter positions and values. The resulting outcome is the list of tree and abbreviations with the lowest possible scoring derived after computations.
+
+The useful-testing-results.docx is a file that consists of two tables, which have been populated to display some of the results of the abbreviations and corresponding scoring obtained during the code testing phase.
