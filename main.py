@@ -2,7 +2,7 @@ import re
 
 # Define a function to create three-letter abbreviations for words in a line
 def create_abbreviations(line):
-    words = line.split()  # Split the line into words
+    words = re.findall(r"[a-zA-Z']+", line)  # Find all words containing only letters and Split the line into words
     abbreviations = []
 
     if len(words) >= 1:
